@@ -1,4 +1,3 @@
-# Define your functions
 def coffee_bot():
   print('Welcome to the cafe!')
   size = get_size()
@@ -31,6 +30,7 @@ def print_message():
 
 def get_drink_type():
   res = input('What type of drink would you like?\n[a] Brewed Coffee \n[b] Mocha \n[c] Latte \n>')
+  
   if res == 'a':
     return order_brew()
   elif res == 'b':
@@ -76,6 +76,6 @@ def get_cup_type():
     print_message()
     return cup_type()
 
-# Call coffee_bot()!
+# Run coffee bot
 coffee_bot()
 
