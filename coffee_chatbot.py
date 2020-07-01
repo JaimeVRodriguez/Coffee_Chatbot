@@ -2,7 +2,10 @@ from functions import get_size, get_drink_type, get_cup_type, order_latte, order
 
 
 def coffee_bot():
-  print('Welcome to the cafe!')
+  print('\t\t\t****************************\t\t\t')
+  print('\t\t\t**  Welcome to the cafe!  **')
+  print('\t\t\t****************************\t\t\t')
+  print('\n\n\n')
 
   order_drink = 'y'
 
